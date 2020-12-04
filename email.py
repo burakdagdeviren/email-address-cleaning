@@ -8,7 +8,6 @@ print("\n")
 pattern = "<(.*?)>"
 first =""
 
-
 print("Printing Results ===========")
 try:
     for n in range(len(a)):
@@ -18,7 +17,6 @@ try:
             first = substring
             print(first + ", ", end="")
 except AttributeError:
-        print("\n\nDone..")
+    print("\n\nDone..")
 
 exit()
-
